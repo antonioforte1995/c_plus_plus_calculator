@@ -32,13 +32,13 @@ void division(int firstOperand, int secondOperand){
 //this function asks for user if he want to do a new calculation
 bool again()
 {
-	char scelta = '0';
+	char choice = '0';
 	cout<< "Do you want to make a new calculation? Type 0 for no, type 1 for yes.\n";
-	cin >> scelta;
-	if (scelta == '1'){
+	cin >> choice;
+	if (choice == '1'){
 		return true;
 	}
-	else if (scelta == '0'){
+	else if (choice == '0'){
 		return false;
 	}
 	else{
